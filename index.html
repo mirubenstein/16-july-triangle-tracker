@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script TYPE="text/javascript" src="js/jquery-1.11.1.js"></script>
+  <script TYPE="text/javascript" src="js/scripts.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Triangle Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Triangle Tracker</h2>
+      <h3>Find out what kind of triangle you can make</h3>
+    </div>
+    <div class="col-md-3">
+      <h4>Enter the lengths of the sides of your triangle</h4>
+      <form>
+        <div class="form-group">
+          <input type="text" id="side1" placeholder="side 1">
+          <input type="text" id="side2" placeholder="side 2">
+          <input type="text" id="side3" placeholder="side 3">
+        </div>
+        <button type"submit" class="btn btn-primary">Add</button>
+      </form>
+    </div>
+    <div class="col-md-3">
+      <h4>Equilateral Triangles</h4>
+      <ul id="equilateral"></ul>
+    </div>
+    <div class="col-md-3">
+      <h4>Isosceles Triangles</h4>
+      <ul id="isosceles"></ul>
+    </div>
+    <div class="col-md-3">
+      <h4>Scalene Triangles</h4>
+      <ul id="scalene"></ul>
+    </div>
+  </div>
+</body>
+</html>
